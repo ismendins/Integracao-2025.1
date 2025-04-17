@@ -13,5 +13,5 @@ app.use("/rest/user", userRouter);
 app.use("/rest/task", taskRouter);
 
 app.listen(port, ()=>{
-    console.log('Executando...')
+    console.log(`The server is running on http://localhost:${port}`);
 });
